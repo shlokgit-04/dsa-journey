@@ -1,4 +1,4 @@
-from .palindrome_number import is_palindrome
+from day03.palindrome_number import is_palindrome
 
 
 def test_examples():
