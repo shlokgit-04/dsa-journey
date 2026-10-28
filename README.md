@@ -8,3 +8,4 @@ Started October 18, 2026.
 - Day 8 (Oct 23): Missing Number, Majority Element, Ransom Note - 9 tests green
 - Day 9 (Oct 25): Single Number, Maximum Subarray, Merge Two Sorted Lists - 9 tests green
 - Day 10 (Oct 26): Reverse String, Remove Element - 6 tests green
+- Day 12 (Oct 28): Best Time to Buy and Sell Stock (LC 121) + Binary Search (LC 704) - single-pass min-price sweep, closed-interval binary search - 14 tests green
