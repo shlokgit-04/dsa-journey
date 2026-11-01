@@ -13,3 +13,4 @@ Started October 18, 2026.
 - Day 14 (Oct 30): Longest Common Prefix (LC 14) + Linked List Cycle (LC 141) + House Robber (LC 198), horizontal scan + Floyd cycle detection + rolling take/skip DP, 9 tests green
 
 | Day 15 | LC 217 Contains Duplicate + LC 1 Two Sum | hash set membership, one-pass complement map | [day15](day15) |
+| Day 16 | LC 283 Move Zeroes + LC 20 Valid Parentheses + LC 110 Balanced Binary Tree | slow/fast partition, bracket stack, bottom-up height DFS | [day16](day16) |
