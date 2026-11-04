@@ -16,3 +16,4 @@ Started October 18, 2026.
 | Day 16 | LC 283 Move Zeroes + LC 20 Valid Parentheses + LC 110 Balanced Binary Tree | slow/fast partition, bracket stack, bottom-up height DFS | [day16](day16) |
 | Day 17 | LC 268 Missing Number | XOR index^value accumulator | [day17](day17) |
 | Day 18 | LC 242 Valid Anagram + LC 104 Max Depth + LC 88 Merge Sorted Array | Counter equality, bottom-up height DFS, back-to-front merge | [day18](day18) |
+| Day 19 | LC 226 Invert BT + LC 101 Symmetric Tree + LC 70 Climbing Stairs + LC 344 Reverse String + LC 125 Valid Palindrome + LC 13 Roman to Integer | subtree swap, mirrored-pair DFS, Fibonacci DP, in-place two-pointer reverse, alnum two-pointer scan, symbol map with subtract rule | [day19](day19) |
