@@ -18,3 +18,4 @@ Started October 18, 2026.
 | Day 18 | LC 242 Valid Anagram + LC 104 Max Depth + LC 88 Merge Sorted Array | Counter equality, bottom-up height DFS, back-to-front merge | [day18](day18) |
 | Day 19 | LC 226 Invert BT + LC 101 Symmetric Tree + LC 70 Climbing Stairs + LC 344 Reverse String + LC 125 Valid Palindrome + LC 13 Roman to Integer | subtree swap, mirrored-pair DFS, Fibonacci DP, in-place two-pointer reverse, alnum two-pointer scan, symbol map with subtract rule | [day19](day19) |
 | Day 20 | LC 206 Reverse Linked List + LC 121 Best Time to Buy and Sell Stock + LC 169 Majority Element + LC 35 Search Insert Position + LC 9 Palindrome Number | 27 |
+| Day 21 | LC 27 Remove Element + LC 26 Remove Duplicates from Sorted Array + LC 350 Intersection of Two Arrays II + LC 66 Plus One + LC 189 Rotate Array | 25 |
