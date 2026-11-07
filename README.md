@@ -19,3 +19,4 @@ Started October 18, 2026.
 | Day 19 | LC 226 Invert BT + LC 101 Symmetric Tree + LC 70 Climbing Stairs + LC 344 Reverse String + LC 125 Valid Palindrome + LC 13 Roman to Integer | subtree swap, mirrored-pair DFS, Fibonacci DP, in-place two-pointer reverse, alnum two-pointer scan, symbol map with subtract rule | [day19](day19) |
 | Day 20 | LC 206 Reverse Linked List + LC 121 Best Time to Buy and Sell Stock + LC 169 Majority Element + LC 35 Search Insert Position + LC 9 Palindrome Number | 27 |
 | Day 21 | LC 27 Remove Element + LC 26 Remove Duplicates from Sorted Array + LC 350 Intersection of Two Arrays II + LC 66 Plus One + LC 189 Rotate Array | 25 |
+| Day 22 | LC 202 Happy Number + LC 228 Summary Ranges + LC 387 First Unique Character in a String + LC 58 Length of Last Word + LC 191 Number of 1 Bits | 25 |
