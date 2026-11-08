@@ -20,3 +20,4 @@ Started October 18, 2026.
 | Day 20 | LC 206 Reverse Linked List + LC 121 Best Time to Buy and Sell Stock + LC 169 Majority Element + LC 35 Search Insert Position + LC 9 Palindrome Number | 27 |
 | Day 21 | LC 27 Remove Element + LC 26 Remove Duplicates from Sorted Array + LC 350 Intersection of Two Arrays II + LC 66 Plus One + LC 189 Rotate Array | 25 |
 | Day 22 | LC 202 Happy Number + LC 228 Summary Ranges + LC 387 First Unique Character in a String + LC 58 Length of Last Word + LC 191 Number of 1 Bits | 25 |
+| Day 23 | LC 118 Pascal's Triangle + LC 509 Fibonacci Number + LC 155 Min Stack + LC 232 Implement Queue using Stacks + LC 404 Sum of Left Leaves | 25 |
