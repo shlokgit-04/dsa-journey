@@ -22,3 +22,4 @@ Started October 18, 2026.
 | Day 22 | LC 202 Happy Number + LC 228 Summary Ranges + LC 387 First Unique Character in a String + LC 58 Length of Last Word + LC 191 Number of 1 Bits | 25 |
 | Day 23 | LC 118 Pascal's Triangle + LC 509 Fibonacci Number + LC 155 Min Stack + LC 232 Implement Queue using Stacks + LC 404 Sum of Left Leaves | 25 |
 | Day 24 | LC 122 Best Time to Buy and Sell Stock II + LC 326 Power of Three + LC 225 Implement Stack using Queues + LC 234 Palindrome Linked List + LC 347 Top K Frequent Elements | 25 |
+| Day 25 | LC 387 First Unique Character in a String + LC 703 Kth Largest Element in a Stream + LC 108 Convert Sorted Array to BST | hash count two-pass scan, min-heap of size k, mid-element recursion | [day25](day25) |
