@@ -25,5 +25,6 @@ Started October 18, 2026.
 | Day 25 | LC 387 First Unique Character in a String + LC 703 Kth Largest Element in a Stream + LC 108 Convert Sorted Array to BST | hash count two-pass scan, min-heap of size k, mid-element recursion | [day25](day25) |
 | Day 26 | LC 242 Valid Anagram + LC 13 Roman to Integer + LC 14 Longest Common Prefix + LC 28 strStr + LC 198 House Robber | [notes](notes/day-26.md) |
 | Day 27 | LC 121 Stock I + LC 169 Majority Element + LC 206 Reverse Linked List + LC 217 Contains Duplicate | one-pass min tracking, Boyer-Moore voting, pointer reversal, set scan |
+| Day 30 | LC 20 Valid Parentheses, LC 682 Baseball Game, LC 496 Next Greater Element I, LC 739 Daily Temperatures, LC 150 Evaluate RPN | Stacks | [day30](day30/) |
 | Day 29 | LC 104, 226, 543, 100, 112 | trees, DFS | 
 | Day 28 | LC 344, 283, 125, 383, 412 | two pointers, hashing, string |
