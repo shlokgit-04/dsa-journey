@@ -28,3 +28,4 @@ Started October 18, 2026.
 | Day 30 | LC 20 Valid Parentheses, LC 682 Baseball Game, LC 496 Next Greater Element I, LC 739 Daily Temperatures, LC 150 Evaluate RPN | Stacks | [day30](day30/) |
 | Day 29 | LC 104, 226, 543, 100, 112 | trees, DFS | 
 | Day 28 | LC 344, 283, 125, 383, 412 | two pointers, hashing, string |
+| Day 31 | LC 680 Valid Palindrome II, LC 443 String Compression, LC 167 Two Sum II | two pointers | [day31](day31/) |
