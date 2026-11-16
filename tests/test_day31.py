@@ -3,43 +3,53 @@ import sys, unittest, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "day31"))
 
-from valid_palindrome import Solution as VP
-from reverse_string import Solution as RS
+from valid_palindrome_ii import Solution as VPII
+from string_compression import Solution as SC
 from two_sum_ii import Solution as TS
 
 
-class TestValidPalindrome(unittest.TestCase):
-    def test_sentence_palindrome(self):
-        self.assertTrue(VP().isPalindrome("A man, a plan, a canal: Panama"))
+class TestValidPalindromeII(unittest.TestCase):
+    def test_already_palindrome(self):
+        self.assertTrue(VPII().validPalindrome("aba"))
 
-    def test_not_palindrome(self):
-        self.assertFalse(VP().isPalindrome("race a car"))
+    def test_one_delete(self):
+        self.assertTrue(VPII().validPalindrome("abca"))
 
-    def test_empty_after_strip(self):
-        self.assertTrue(VP().isPalindrome(" "))
+    def test_needs_two(self):
+        self.assertFalse(VPII().validPalindrome("abc"))
 
-    def test_alnum_edge(self):
-        self.assertFalse(VP().isPalindrome("0P"))
+    def test_front_delete(self):
+        self.assertTrue(VPII().validPalindrome("cuucu"))
 
-    def test_mixed_case(self):
-        self.assertTrue(VP().isPalindrome("Was it a car or a cat I saw?"))
+    def test_single_char(self):
+        self.assertTrue(VPII().validPalindrome("z"))
 
 
-class TestReverseString(unittest.TestCase):
-    def test_odd_length(self):
-        chars = ["h", "e", "l", "l", "o"]
-        RS().reverseString(chars)
-        self.assertEqual(chars, ["o", "l", "l", "e", "h"])
+class TestStringCompression(unittest.TestCase):
+    def test_groups(self):
+        chars = ["a", "a", "b", "b", "c", "c", "c"]
+        self.assertEqual(SC().compress(chars), 6)
+        self.assertEqual(chars[:6], ["a", "2", "b", "2", "c", "3"])
 
-    def test_even_length(self):
-        chars = ["H", "a", "n", "n", "a", "h"]
-        RS().reverseString(chars)
-        self.assertEqual(chars, ["h", "a", "n", "n", "a", "H"])
+    def test_single_char(self):
+        chars = ["a"]
+        self.assertEqual(SC().compress(chars), 1)
+        self.assertEqual(chars[:1], ["a"])
 
-    def test_single(self):
-        chars = ["x"]
-        RS().reverseString(chars)
-        self.assertEqual(chars, ["x"])
+    def test_two_same(self):
+        chars = ["a", "a"]
+        self.assertEqual(SC().compress(chars), 2)
+        self.assertEqual(chars[:2], ["a", "2"])
+
+    def test_two_digit_count(self):
+        chars = ["a"] * 12
+        self.assertEqual(SC().compress(chars), 3)
+        self.assertEqual(chars[:3], ["a", "1", "2"])
+
+    def test_no_change(self):
+        chars = ["a", "b", "b"]
+        self.assertEqual(SC().compress(chars), 3)
+        self.assertEqual(chars[:3], ["a", "b", "2"])
 
 
 class TestTwoSumII(unittest.TestCase):
