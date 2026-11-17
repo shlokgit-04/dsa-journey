@@ -29,3 +29,4 @@ Started October 18, 2026.
 | Day 29 | LC 104, 226, 543, 100, 112 | trees, DFS | 
 | Day 28 | LC 344, 283, 125, 383, 412 | two pointers, hashing, string |
 | Day 31 | LC 680 Valid Palindrome II, LC 443 String Compression, LC 167 Two Sum II | two pointers | [day31](day31/) |
+| Day 32 | LC 205 Isomorphic Strings, LC 560 Subarray Sum Equals K, LC 525 Contiguous Array | hashing + prefix sums | [day32](day32/) |
