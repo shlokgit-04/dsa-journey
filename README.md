@@ -33,3 +33,4 @@ Started October 18, 2026.
 | Day 33 | LC 15 3Sum, LC 238 Product of Array Except Self, LC 844 Backspace String Compare | two pointers + prefix products | [day33](day33/) |
 | Day 34 | LC 118, 119 Pascal's Triangle(+II), LC 169 Majority Element, LC 198 House Robber, LC 746 Min Cost Climbing Stairs, LC 55 Jump Game, LC 300 LIS | DP basics + greedy + counting | [day34](day34/) |
 | Day 35 | LC 11 Container With Most Water, LC 287 Find the Duplicate Number, LC 69 Sqrt(x) | two pointers + Floyd's cycle detection + binary search | [day35](day35/) |
+| Day 36 | LC 49 Group Anagrams, LC 3 Longest Substring Without Repeating Characters, LC 151 Reverse Words in a String | hashing + sliding window + strings | [day36](day36/) |
