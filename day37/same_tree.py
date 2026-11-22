@@ -1,15 +1,12 @@
 """LC 100 Same Tree (Easy) - trees.
 
+TreeNode lives in invert_binary_tree.py; this file reuses it.
+
 Two trees are the same when every node matches in value and in both
 children. Recurse down both at once. O(n) time, O(h) stack.
 """
 
-
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from day37.invert_binary_tree import TreeNode
 
 
 class Solution:
