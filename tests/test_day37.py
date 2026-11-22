@@ -24,3 +24,27 @@ def test_lc53_single():
 
 def test_lc53_all_positive():
     assert MaxSub().maxSubArray([5, 4, -1, 7, 8]) == 23
+
+
+from day37.climbing_stairs import Solution as Climb
+from day37.binary_search import Solution as BinSearch
+
+
+def test_lc70_base():
+    assert Climb().climbStairs(1) == 1
+    assert Climb().climbStairs(2) == 2
+
+
+def test_lc70_known_values():
+    assert Climb().climbStairs(3) == 3
+    assert Climb().climbStairs(10) == 89
+
+
+def test_lc704_found():
+    assert BinSearch().search([-1, 0, 3, 5, 9, 12], 9) == 4
+    assert BinSearch().search([5], 5) == 0
+
+
+def test_lc704_missing():
+    assert BinSearch().search([-1, 0, 3, 5, 9, 12], 2) == -1
+    assert BinSearch().search([5], -5) == -1
