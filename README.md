@@ -35,3 +35,4 @@ Started October 18, 2026.
 | Day 35 | LC 11 Container With Most Water, LC 287 Find the Duplicate Number, LC 69 Sqrt(x) | two pointers + Floyd's cycle detection + binary search | [day35](day35/) |
 | Day 36 | LC 49 Group Anagrams, LC 3 Longest Substring Without Repeating Characters, LC 151 Reverse Words in a String | hashing + sliding window + strings | [day36](day36/) |
 | Day 37 | LC 121 Best Time to Buy and Sell Stock, LC 53 Maximum Subarray, LC 70 Climbing Stairs, LC 704 Binary Search, LC 226 Invert Binary Tree, LC 100 Same Tree | DP + Kadane + binary search + trees | [day37](day37/) |
+| Day 38 | LC 344 Reverse String, LC 242 Valid Anagram, LC 125 Valid Palindrome | strings + hashing + two pointers | [day38](day38/) |
