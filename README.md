@@ -37,3 +37,4 @@ Started October 18, 2026.
 | Day 37 | LC 121 Best Time to Buy and Sell Stock, LC 53 Maximum Subarray, LC 70 Climbing Stairs, LC 704 Binary Search, LC 226 Invert Binary Tree, LC 100 Same Tree | DP + Kadane + binary search + trees | [day37](day37/) |
 | Day 38 | LC 344 Reverse String, LC 242 Valid Anagram, LC 125 Valid Palindrome | strings + hashing + two pointers | [day38](day38/) |
 | Day 39 | LC 169 Majority Element, LC 136 Single Number, LC 268 Missing Number, LC 283 Move Zeroes, LC 27 Remove Element, LC 88 Merge Sorted Array | arrays + hashing + bit tricks | [day39](day39/) |
+| Day 40 | LC 75 Sort Colors, LC 392 Is Subsequence, LC 567 Permutation in String, LC 349 Intersection of Two Arrays, LC 102 Level Order Traversal, LC 62 Unique Paths | two pointers + sliding window + hashing + trees + DP | [day40](day40/) |
