@@ -39,3 +39,4 @@ Started October 18, 2026.
 | Day 39 | LC 169 Majority Element, LC 136 Single Number, LC 268 Missing Number, LC 283 Move Zeroes, LC 27 Remove Element, LC 88 Merge Sorted Array | arrays + hashing + bit tricks | [day39](day39/) |
 | Day 40 | LC 75 Sort Colors, LC 392 Is Subsequence, LC 567 Permutation in String, LC 349 Intersection of Two Arrays, LC 102 Level Order Traversal, LC 62 Unique Paths | two pointers + sliding window + hashing + trees + DP | [day40](day40/) |
 | Day 41 | LC 700 Search in a BST, LC 219 Contains Duplicate II, LC 455 Assign Cookies | BST descent, last-index hash map, greedy cookie fit | [day41](day41/) |
+| Day 42 | LC 977 Squares of a Sorted Array, LC 414 Third Maximum Number, LC 1207 Unique Number of Occurrences | end-pointer squares, dedupe-then-sort, count-list dedupe check | [day42](day42/) |
